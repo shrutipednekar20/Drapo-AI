@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DRAPO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <h1>DRAPO ⚡</h1>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="cart.html">Cart 🛒 (<span id="cart-count">0</span>)</a>
+    </div>
+</header>
+
+<section class="hero">
+    <h2>FAST FASHION DELIVERY</h2>
+    <p>Delivery in 60 minutes 🚀</p>
+</section>
+
+<div class="products">
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b">
+        <h3>T-Shirt</h3>
+        <p>₹499</p>
+        <button onclick="addToCart('T-Shirt',499)">Add</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246">
+        <h3>Jacket</h3>
+        <p>₹1999</p>
+        <button onclick="addToCart('Jacket',1999)">Add</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
